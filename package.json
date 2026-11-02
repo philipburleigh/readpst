@@ -1,8 +1,16 @@
 {
   "name": "readpst",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Convert Outlook .pst files to .eml files with libpst's readpst",
-  "keywords": ["pst", "ost", "outlook", "eml", "email", "readpst", "libpst"],
+  "keywords": [
+    "pst",
+    "ost",
+    "outlook",
+    "eml",
+    "email",
+    "readpst",
+    "libpst"
+  ],
   "author": "Philip van Burleigh",
   "license": "MIT",
   "repository": {
@@ -16,7 +24,10 @@
     "types": "./index.d.ts",
     "default": "./index.js"
   },
-  "files": ["index.js", "index.d.ts"],
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
   "engines": {
     "node": ">=20.12"
   },
